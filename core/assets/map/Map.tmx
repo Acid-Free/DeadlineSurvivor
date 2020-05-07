@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="2020.03.18" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="83">
+ <tileset firstgid="1" name="spritesheet_tiles" tilewidth="64" tileheight="64" spacing="10" tilecount="540" columns="27">
+  <image source="spritesheet_tiles.png" width="1988" height="1470"/>
+ </tileset>
+ <tileset firstgid="541" name="bed" tilewidth="37" tileheight="71" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="37" height="71" source="../furnitures/bed.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="542" name="computerScreen" tilewidth="26" tileheight="7" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="26" height="7" source="../furnitures/computerScreen.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="543" name="tableGlass" tilewidth="54" tileheight="29" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="54" height="29" source="../furnitures/tableGlass.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="544" name="rugRectangle" tilewidth="101" tileheight="59" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="101" height="59" source="../furnitures/rugRectangle.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="545" name="kitchenFridge" tilewidth="28" tileheight="20" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="28" height="20" source="../furnitures/kitchenFridge.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="546" name="chairDesk" tilewidth="22" tileheight="21" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="22" height="21" source="../furnitures/chairDesk.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="547" name="shower" tilewidth="36" tileheight="37" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="36" height="37" source="../furnitures/shower.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="548" name="kitchenSink" tilewidth="28" tileheight="29" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="28" height="29" source="../furnitures/kitchenSink.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="549" name="kitchenStoveElectric" tilewidth="28" tileheight="29" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="28" height="29" source="../furnitures/kitchenStoveElectric.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="550" name="toilet" tilewidth="20" tileheight="31" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="20" height="31" source="../furnitures/toilet.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="551" name="washer" tilewidth="25" tileheight="26" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="25" height="26" source="../furnitures/washer.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="552" name="table" tilewidth="54" tileheight="29" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="54" height="29" source="../furnitures/table.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="553" name="books" tilewidth="10" tileheight="7" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="10" height="7" source="../furnitures/books.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="554" name="paper" tilewidth="88" tileheight="124" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="88" height="124" source="../furnitures/paper.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="555" name="computerKeyboard" tilewidth="19" tileheight="8" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="19" height="8" source="../furnitures/computerKeyboard.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="556" name="computerMouse" tilewidth="4" tileheight="6" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="4" height="6" source="../furnitures/computerMouse.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="557" name="laptop" tilewidth="17" tileheight="16" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="17" height="16" source="../furnitures/laptop.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="558" name="pottedPlant" tilewidth="13" tileheight="15" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="13" height="15" source="../furnitures/pottedPlant.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="559" name="trashCan" tilewidth="13" tileheight="16" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="13" height="16" source="../furnitures/trashCan.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="560" name="televisionModern" tilewidth="44" tileheight="9" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="44" height="9" source="../furnitures/televisionModern.png"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="Base" width="20" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+38,0,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,0,39,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+36,0,2,0,2,0,2,0,3,0,3,0,2,0,3,0,2,0,35,0,
+36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,
+36,0,3,0,96,0,96,0,96,0,96,0,96,0,96,0,2,0,35,0,
+36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,
+36,0,2,0,96,0,96,0,96,0,96,0,96,0,96,0,4,0,35,0,
+36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,
+36,0,2,0,96,0,96,0,96,0,96,0,96,0,96,0,2,0,35,0,
+36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,
+36,0,2,0,96,0,96,0,96,0,96,0,96,0,96,0,3,0,35,0,
+36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,
+36,0,2,0,96,0,96,0,96,0,96,0,96,0,96,0,2,0,35,0,
+36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,
+36,0,2,0,96,0,96,0,96,0,96,0,96,0,96,0,2,0,35,0,
+36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,
+36,0,2,0,3,0,138,0,2,0,1,0,2,0,4,0,4,0,35,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+65,0,37,37,37,0,166,0,37,37,37,0,37,37,37,37,37,0,66,0
+</data>
+ </layer>
+ <layer id="11" name="BaseAfternoon" width="20" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+38,0,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,0,39,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+36,0,16,0,16,0,16,0,16,0,16,0,16,0,16,0,16,0,35,0,
+36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,
+36,0,16,0,96,0,96,0,96,0,96,0,96,0,96,0,16,0,35,0,
+36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,
+36,0,16,0,96,0,96,0,96,0,96,0,96,0,96,0,16,0,35,0,
+36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,
+36,0,16,0,96,0,96,0,96,0,96,0,96,0,96,0,16,0,35,0,
+36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,
+36,0,16,0,96,0,96,0,96,0,96,0,96,0,96,0,16,0,35,0,
+36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,
+36,0,16,0,96,0,96,0,96,0,96,0,96,0,96,0,16,0,35,0,
+36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,
+36,0,16,0,96,0,96,0,96,0,96,0,96,0,96,0,16,0,35,0,
+36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,
+36,0,16,0,16,0,138,0,16,0,16,0,16,0,16,0,16,0,35,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+65,0,37,37,37,0,166,0,37,37,37,0,37,37,37,37,37,0,66,0
+</data>
+ </layer>
+ <layer id="3" name="BaseNight" width="20" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+38,0,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,0,39,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+36,0,20,19,20,20,20,20,20,20,20,20,20,20,20,20,20,0,35,0,
+36,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,
+36,0,20,0,96,0,96,0,96,0,96,0,96,0,96,0,20,0,35,0,
+36,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,
+36,0,20,0,96,0,96,0,96,0,96,0,96,0,96,0,19,0,35,0,
+36,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,
+36,0,20,0,96,0,96,0,96,0,96,0,96,0,96,0,20,0,35,0,
+36,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,
+36,0,20,0,96,0,96,0,96,0,96,0,96,0,96,0,19,0,35,0,
+36,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,
+36,0,20,0,96,0,96,0,96,0,96,0,96,0,96,0,20,0,35,0,
+36,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,19,0,35,0,
+36,0,20,0,96,0,96,0,96,0,96,0,96,0,96,0,20,0,35,0,
+36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,35,0,
+36,0,19,20,20,0,138,0,20,20,19,20,20,20,19,20,19,0,35,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+65,0,37,37,37,0,166,0,37,37,37,0,37,37,37,37,37,0,66,0
+</data>
+ </layer>
+ <layer id="2" name="Walls" width="20" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,472,472,472,472,472,472,472,472,472,472,472,0,0,0,0,0,
+0,0,0,445,0,0,0,0,0,0,0,0,0,0,0,445,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,445,0,0,0,0,
+0,0,0,499,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,445,0,0,0,0,
+0,0,0,445,0,0,0,0,0,0,0,0,0,0,0,445,0,0,0,0,
+0,0,0,445,0,0,0,0,0,0,0,0,0,0,0,500,0,0,0,0,
+0,0,0,445,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,445,0,0,0,0,0,0,0,0,0,0,0,445,0,0,0,0,
+0,0,0,445,0,0,0,0,0,0,0,472,472,0,472,445,0,0,0,0,
+0,0,0,445,0,0,0,0,0,0,445,0,0,0,0,445,0,0,0,0,
+0,0,0,445,0,0,0,0,0,0,462,0,0,0,0,445,0,0,0,0,
+0,0,0,0,472,0,463,0,472,472,472,472,472,472,472,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="WallCorners" width="20" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,479,0,0,0,0,0,0,0,0,0,0,0,479,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,479,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,479,0,0,0,0,0,0,0,0,0,0,0,479,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="9" name="mainFurnitures">
+  <object id="1" name="Bed" gid="541" x="436.852" y="270.864" width="66" height="127"/>
+  <object id="5" name="rugRectangle" gid="544" x="192.333" y="501" width="62.6667" height="47.3333"/>
+  <object id="3" name="tableGlass" gid="1073742367" x="194.834" y="255.333" width="87" height="58" rotation="270"/>
+  <object id="6" name="kitchenFridge" gid="545" x="502.992" y="367.409" width="54.8333" height="41.6667" rotation="-180"/>
+  <object id="9" name="shower" gid="547" x="458.909" y="470.818" width="44" height="45.6667"/>
+  <object id="10" name="kitchenSink" gid="1073742372" x="383.977" y="407.083" width="33.0909" height="28.0303"/>
+  <object id="11" name="kitchenStove" gid="549" x="449.856" y="371.75" width="34.7273" height="35.2424" rotation="180"/>
+  <object id="13" name="dryer" gid="551" x="369.091" y="456.333" width="37.6667" height="31.3333"/>
+  <object id="14" name="washer" gid="551" x="406.667" y="456.333" width="36.3333" height="31.3333"/>
+  <object id="15" name="tvTable" gid="1073742376" x="170" y="383.167" width="71" height="33" rotation="270"/>
+  <object id="16" name="bookTable" gid="1073742376" x="293" y="176" width="68" height="39"/>
+  <object id="61" gid="550" x="471.533" y="473.688" width="20" height="31" rotation="-270"/>
+ </objectgroup>
+ <objectgroup id="10" name="secondaryFurnitures">
+  <object id="24" name="book1" gid="553" x="295.75" y="156.25" width="19.5" height="12"/>
+  <object id="26" name="book2" gid="553" x="324.656" y="149.222" width="19" height="13"/>
+  <object id="28" name="book3" gid="553" x="345.201" y="148.099" width="14.4609" height="12.2504"/>
+  <object id="29" name="paper" gid="554" x="315.572" y="171.711" width="16.6667" height="19.3333" rotation="-5.16874"/>
+  <object id="30" name="computerMonitor" gid="542" x="148.894" y="185.628" width="58" height="10.3333" rotation="90.0896"/>
+  <object id="31" name="computerKeyboard" gid="555" x="186.425" y="241.343" width="32.8889" height="18.1538" rotation="-90"/>
+  <object id="34" name="computerMouse" gid="556" x="182.044" y="202.711" width="4" height="6" rotation="-74.9427"/>
+  <object id="35" name="laptop" gid="557" x="332.843" y="160.066" width="17" height="16" rotation="46.213"/>
+  <object id="38" name="plant3" gid="558" x="172.273" y="192.727" width="13" height="15"/>
+  <object id="41" name="plant2" gid="558" x="140" y="500" width="13" height="15"/>
+  <object id="42" name="plant1" gid="558" x="444" y="441.333" width="13" height="15"/>
+  <object id="43" name="trashCan" gid="559" x="145.5" y="138.583" width="22.3333" height="20.6667" rotation="90"/>
+  <object id="44" name="tv" gid="560" x="157.093" y="379.755" width="52.2058" height="14.8773" rotation="-89.9967"/>
+  <object id="45" name="plant4" gid="558" x="368.5" y="405.5" width="13" height="15"/>
+ </objectgroup>
+ <objectgroup id="13" name="WallBounds">
+  <object id="54" x="120.5" y="505.5" width="399" height="13.5"/>
+  <object id="55" x="118.5" y="118.5" width="17.5" height="400"/>
+  <object id="56" x="119" y="119.5" width="401" height="15.5"/>
+  <object id="57" x="504" y="119" width="15" height="401"/>
+  <object id="58" x="344" y="407.5" width="175.5" height="17.5"/>
+  <object id="59" x="344" y="407.5" width="17" height="111"/>
+  <object id="75" x="110.5" y="496" width="32" height="32"/>
+  <object id="76" x="335" y="399.5" width="32" height="32"/>
+  <object id="77" x="496.5" y="112" width="32" height="32"/>
+  <object id="78" x="495.5" y="495.5" width="32" height="32"/>
+  <object id="79" x="111.5" y="112" width="32" height="32"/>
+  <object id="80" x="146.364" y="138.682" width="23.2727" height="23.9545"/>
+  <object id="81" x="141.114" y="487.523" width="10" height="10"/>
+  <object id="82" x="369.25" y="393.25" width="10" height="10"/>
+ </objectgroup>
+ <objectgroup id="12" name="FurnitureBounds">
+  <object id="47" name="computerArea" x="137" y="168.833" width="56" height="86"/>
+  <object id="48" name="televisionArea" x="137" y="313.167" width="31" height="70"/>
+  <object id="49" name="kitchenArea" x="383" y="366.667" width="120" height="40.6667"/>
+  <object id="50" name="bedArea" x="437.333" y="144" width="66" height="127.333"/>
+  <object id="51" name="studyArea" x="293.333" y="136" width="69.3333" height="38.6667"/>
+  <object id="52" name="restRoomArea" x="344" y="425.333" width="159.333" height="79.3333"/>
+  <object id="53" name="doorArea" x="192" y="503" width="64.6667" height="40.3333"/>
+ </objectgroup>
+</map>
